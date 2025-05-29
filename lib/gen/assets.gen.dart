@@ -12,6 +12,17 @@ import 'package:flutter/widgets.dart';
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// File path: assets/icons/emptyIcon.png
+  AssetGenImage get emptyIcon =>
+      const AssetGenImage('assets/icons/emptyIcon.png');
+
+  /// File path: assets/icons/feilledProfile.png
+  AssetGenImage get feilledProfile =>
+      const AssetGenImage('assets/icons/feilledProfile.png');
+
+  /// File path: assets/icons/fire.png
+  AssetGenImage get fire => const AssetGenImage('assets/icons/fire.png');
+
   /// File path: assets/icons/google.png
   AssetGenImage get google => const AssetGenImage('assets/icons/google.png');
 
@@ -28,8 +39,25 @@ class $AssetsIconsGen {
   AssetGenImage get settings =>
       const AssetGenImage('assets/icons/settings.png');
 
+  /// File path: assets/icons/star.png
+  AssetGenImage get star => const AssetGenImage('assets/icons/star.png');
+
+  /// File path: assets/icons/timer.png
+  AssetGenImage get timer => const AssetGenImage('assets/icons/timer.png');
+
   /// List of all assets
-  List<AssetGenImage> get values => [google, profile, ring, search, settings];
+  List<AssetGenImage> get values => [
+    emptyIcon,
+    feilledProfile,
+    fire,
+    google,
+    profile,
+    ring,
+    search,
+    settings,
+    star,
+    timer,
+  ];
 }
 
 class $AssetsImagesGen {
@@ -43,6 +71,9 @@ class $AssetsImagesGen {
   AssetGenImage get chefLogin =>
       const AssetGenImage('assets/images/chef_login.png');
 
+  /// File path: assets/images/food.png
+  AssetGenImage get food => const AssetGenImage('assets/images/food.png');
+
   /// File path: assets/images/lunch.png
   AssetGenImage get lunch => const AssetGenImage('assets/images/lunch.png');
 
@@ -50,7 +81,7 @@ class $AssetsImagesGen {
   AssetGenImage get salad => const AssetGenImage('assets/images/salad.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [breakfast, chefLogin, lunch, salad];
+  List<AssetGenImage> get values => [breakfast, chefLogin, food, lunch, salad];
 }
 
 class Assets {
