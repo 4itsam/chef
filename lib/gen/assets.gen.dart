@@ -12,6 +12,17 @@ import 'package:flutter/widgets.dart';
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// File path: assets/icons/categories_enabled.png
+  AssetGenImage get categoriesEnabled =>
+      const AssetGenImage('assets/icons/categories_enabled.png');
+
+  /// File path: assets/icons/categories_focused.png
+  AssetGenImage get categoriesFocused =>
+      const AssetGenImage('assets/icons/categories_focused.png');
+
+  /// File path: assets/icons/crown.png
+  AssetGenImage get crown => const AssetGenImage('assets/icons/crown.png');
+
   /// File path: assets/icons/emptyIcon.png
   AssetGenImage get emptyIcon =>
       const AssetGenImage('assets/icons/emptyIcon.png');
@@ -26,8 +37,21 @@ class $AssetsIconsGen {
   /// File path: assets/icons/google.png
   AssetGenImage get google => const AssetGenImage('assets/icons/google.png');
 
-  /// File path: assets/icons/profile.png
-  AssetGenImage get profile => const AssetGenImage('assets/icons/profile.png');
+  /// File path: assets/icons/home_enabled.png
+  AssetGenImage get homeEnabled =>
+      const AssetGenImage('assets/icons/home_enabled.png');
+
+  /// File path: assets/icons/home_focused.png
+  AssetGenImage get homeFocused =>
+      const AssetGenImage('assets/icons/home_focused.png');
+
+  /// File path: assets/icons/profile_enabled.png
+  AssetGenImage get profileEnabled =>
+      const AssetGenImage('assets/icons/profile_enabled.png');
+
+  /// File path: assets/icons/profile_focused.png
+  AssetGenImage get profileFocused =>
+      const AssetGenImage('assets/icons/profile_focused.png');
 
   /// File path: assets/icons/ring.png
   AssetGenImage get ring => const AssetGenImage('assets/icons/ring.png');
@@ -39,24 +63,45 @@ class $AssetsIconsGen {
   AssetGenImage get settings =>
       const AssetGenImage('assets/icons/settings.png');
 
+  /// File path: assets/icons/shopping_enabled.png
+  AssetGenImage get shoppingEnabled =>
+      const AssetGenImage('assets/icons/shopping_enabled.png');
+
+  /// File path: assets/icons/shopping_focused.png
+  AssetGenImage get shoppingFocused =>
+      const AssetGenImage('assets/icons/shopping_focused.png');
+
   /// File path: assets/icons/star.png
   AssetGenImage get star => const AssetGenImage('assets/icons/star.png');
 
   /// File path: assets/icons/timer.png
   AssetGenImage get timer => const AssetGenImage('assets/icons/timer.png');
 
+  /// File path: assets/icons/user_profile.png
+  AssetGenImage get userProfile =>
+      const AssetGenImage('assets/icons/user_profile.png');
+
   /// List of all assets
   List<AssetGenImage> get values => [
+    categoriesEnabled,
+    categoriesFocused,
+    crown,
     emptyIcon,
     feilledProfile,
     fire,
     google,
-    profile,
+    homeEnabled,
+    homeFocused,
+    profileEnabled,
+    profileFocused,
     ring,
     search,
     settings,
+    shoppingEnabled,
+    shoppingFocused,
     star,
     timer,
+    userProfile,
   ];
 }
 
@@ -71,6 +116,9 @@ class $AssetsImagesGen {
   AssetGenImage get chefLogin =>
       const AssetGenImage('assets/images/chef_login.png');
 
+  /// File path: assets/images/empty.png
+  AssetGenImage get empty => const AssetGenImage('assets/images/empty.png');
+
   /// File path: assets/images/food.png
   AssetGenImage get food => const AssetGenImage('assets/images/food.png');
 
@@ -81,7 +129,14 @@ class $AssetsImagesGen {
   AssetGenImage get salad => const AssetGenImage('assets/images/salad.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [breakfast, chefLogin, food, lunch, salad];
+  List<AssetGenImage> get values => [
+    breakfast,
+    chefLogin,
+    empty,
+    food,
+    lunch,
+    salad,
+  ];
 }
 
 class Assets {

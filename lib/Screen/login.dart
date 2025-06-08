@@ -69,11 +69,11 @@ class Login extends StatelessWidget {
               ),
               child: TextButton(
                 onPressed: () {
-                  Get.to(() => Home());
+                  // Get.off(() => Home());
                 },
                 style: TextButton.styleFrom(
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(24),
+                    borderRadius: BorderRadius.circular(16),
                   ),
                   overlayColor: const Color.fromARGB(255, 245, 98, 44),
                 ),
@@ -94,7 +94,7 @@ class Login extends StatelessWidget {
               width: Adaptive.w(75),
               decoration: BoxDecoration(
                 color: const Color.fromARGB(255, 245, 98, 44),
-                borderRadius: BorderRadius.circular(24),
+                borderRadius: BorderRadius.circular(16),
               ),
               child: TextButton.icon(
                 icon: Image.asset(Assets.icons.google.path),

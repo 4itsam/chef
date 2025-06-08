@@ -27,7 +27,7 @@ class _CategorieswidgetState extends State<Categorieswidget> {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Container(
-      height: Adaptive.px(50),
+      height: Adaptive.px(60),
       width: double.maxFinite,
 
       child: ListView.builder(
@@ -43,6 +43,15 @@ class _CategorieswidgetState extends State<Categorieswidget> {
                 image: DecorationImage(
                   image: AssetImage(categories[index].image),
                 ),
+                boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(18, 0, 0, 0),
+                    blurRadius: 8,
+                    offset: Offset(0, 2),
+                    blurStyle: BlurStyle.normal,
+                    spreadRadius: 0,
+                  ),
+                ],
               ),
               child: Center(
                 child: Text(
@@ -58,7 +67,7 @@ class _CategorieswidgetState extends State<Categorieswidget> {
             ),
           );
         },
-        itemCount: categories.length,
+        itemCount: 3,
       ),
     );
   }

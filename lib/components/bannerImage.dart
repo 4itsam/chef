@@ -12,6 +12,12 @@ class BannerImage extends StatelessWidget{
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
         image: DecorationImage(image: AssetImage(Assets.images.food.path)),
+        boxShadow: [BoxShadow(
+          color: const Color.fromARGB(18, 0, 0, 0),
+          blurRadius: 8,
+          blurStyle: BlurStyle.normal,
+          offset: Offset(0, 2)
+        )]
       ),
       child: Stack(
         children: [

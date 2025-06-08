@@ -2,15 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:login/gen/assets.gen.dart';
 import 'package:sizer/sizer.dart';
 
-class AppbarCard extends StatelessWidget implements PreferredSizeWidget{
+class AppbarCard extends StatelessWidget implements PreferredSizeWidget {
   const AppbarCard({super.key});
-
-
 
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     return AppBar(
+      
       toolbarHeight: 146,
       backgroundColor: const Color.fromARGB(255, 245, 98, 44),
       automaticallyImplyLeading: false,
@@ -28,7 +27,7 @@ class AppbarCard extends StatelessWidget implements PreferredSizeWidget{
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(100),
                   image: DecorationImage(
-                    image: AssetImage(Assets.icons.profile.path),
+                    image: AssetImage(Assets.icons.userProfile.path),
                   ),
                 ),
               ),
@@ -127,10 +126,8 @@ class AppbarCard extends StatelessWidget implements PreferredSizeWidget{
       ),
     );
   }
-  
+
   @override
   // TODO: implement preferredSize
-Size get preferredSize => const Size.fromHeight(146); 
-  
-
+  Size get preferredSize => const Size.fromHeight(146);
 }
